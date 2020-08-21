@@ -16,7 +16,8 @@ var spec = {
   cwd: __dirname,
   errorPage: __dirname + '/error.html',
   compression: true,
-  debug: true
+  debug: true,
+  allowSymlinks: false
 };
 
 var app = superstatic(spec);
